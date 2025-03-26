@@ -1,1 +1,3 @@
-# Underground-gas-pipeline-fault-detection-and-alert-system
+This project focuses on developing an IoT-based real-time monitoring system for detecting faults in underground gas pipelines. The system integrates gas, temperature, and flow sensors to continuously monitor pipeline conditions. It utilizes Arduino UNO for data processing and NodeMCU ESP32 for IoT connectivity, transmitting real-time data to a ThingSpeak dashboard for remote monitoring.
+
+Key components include an MQ-6 gas sensor for detecting leaks, a SIM800L GSM module for sending SMS alerts, and a NEO-6M GPS module for precise fault location tracking. An automatic shutoff mechanism using a relay and solenoid valve enhances safety by stopping gas flow in case of detected leaks. The system ensures real-time alerts, remote monitoring, and faster response times, significantly improving pipeline safety and minimizing hazards.
